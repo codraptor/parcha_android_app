@@ -12,6 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Parcha">
         <activity
+            android:name=".ItemsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SalesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BillingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
